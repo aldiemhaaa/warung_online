@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Product Details</title>
+    <!-- <link href="//db.onlinewebfonts.com/c/0a086e32e41c5e5960b26626757f07f3?family=Apercu" rel="stylesheet" type="text/css"/> -->
+    <script src="https://kit.fontawesome.com/273cc90b57.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/detailproduk.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    
+
+</head>
+<body>
+    <div class="containers">
+        <div class="navside">
+                <div class="logoheader nav-item">
+                    <!-- <i class="fas fa-user"></i> -->
+                    <span>Warung Online</span>
+                </div>
+                <ul>
+                    <li class="nav-item active"> 
+                        <i class="fas fa-compass"></i>
+                        <a href="#" class="item nav1 ">Dashboard</a>
+                    </li>
+                    <li class="nav-item ">
+                        <i class="fas fa-envelope"></i>
+                        <a href="#" class="item nav2">Requests</a>
+                    </li>
+                    <li class="nav-item ">
+                        <i class="fas fa-check"></i>
+                        <a href="#" class="item nav3">Task</a>
+                    </li>
+                    <li class="nav-item ">
+                        <i class="fas fa-user"></i>
+                        <a href="#" class="item nav4">Team numbers</a>
+                    </li>
+                    <li class="nav-item ">
+                        <i class="fas fa-clock"></i>
+                        <a href="#" class="item nav5">Archive</a>
+                    </li>
+                    <li class="nav-item ">
+                        <i class="fas fa-user"></i>
+                        <a href="#" class="item nav6">Accounts</a>
+                    </li>
+                    <li class="nav-item ">
+                        <i class="fas fa-cog"></i>
+                        <a href="#" class="item nav7">Settings</a>
+                    </li>
+                    <li class="nav-item ">
+                        <i class="fas fa-chevron-left"></i>
+                        <a href="#" class="item nav8">Hide panel</a>
+                    </li>
+                </ul>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <div class="search ml-1">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="search"> 
+                </div>
+                <div class="profile">
+                    <span>Aldi Sebastian</span>
+                    <div class="kotak">
+                        <img src="img/pp.png" width="40" height="40" >
+                    </div>
+                        <span style="font-size:20px;text-align: center;"><a href="#">
+
+                            <i class="fas fa-bell"></i>
+                        </a>
+
+                        </span>
+                </div>
+            </div>
+            <div class="content">
+                <main id="main">
+                  
+                       
+                   <div class="img">
+                       <img class="img-item" src="img/cover.jpg" height="480px"  alt="" srcset="">
+                       <img class="img-item" src="img/cover.jpg" height="150px" alt="">
+                       <img class="img-item" src="img/cover.jpg" height="150px" alt="">
+                       <img class="img-item" src="img/cover.jpg" height="150px" alt="">
+                   </div>
+                   
+                   <div class="contentnya">
+                            <div style="margin-top:0.5em;">
+                                <span style="font-size:10pt">Category</span>
+                            </div>
+                            <div class="content-body">
+                                
+                                <div class="black-label">
+                                    <span class="title"><b>Black pather</b></span><br><br>
+                                    <span class="harga">$499.0</span><br><br>
+
+                                    <span><b> Details Product : </b></span><br><br>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                       Tenetur corporis modi aliquam, quis laborum a nam fugit ducimus? 
+                                       Molestiae repellendus adipisci ea aut eligendi nemo velit itaque,
+                                        illum placeat? Velit.
+                                        </p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                           Tenetur corporis modi aliquam, quis laborum a nam fugit ducimus? 
+                                           Molestiae repellendus adipisci ea aut eligendi nemo velit itaque,
+                                            illum placeat? Velit.
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                               
+                                           
+                                </div>
+                                <div class="cart">
+                                    
+                                    <div>
+                                        <span><b>Qty</b></span>
+                                    </div>
+                                    <br>
+
+                                    <div class="btn-cart">
+                                        <button class="button-cart">-</button>
+                                        <input style="width:30px;padding:0.3em;" type="text" name="qty" id="">
+                                        <button class="button-cart">+</button><br><br>
+                                        <button class="button-addtocart" data-bs-toggle="modal" data-bs-target="#exampleModal">Update Product</button>
+                                    </div>
+                                        
+                                    
+                                </div>
+                              
+           
+                               
+                            </div>
+                            
+                        </div>
+                   
+                </main>
+            </div>
+            
+        </div>
+        
+    </div>
+    <!-- modal -->
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Update Product</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- end modal -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" style="background-color: transparent!important;" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
+

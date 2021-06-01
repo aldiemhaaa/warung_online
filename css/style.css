@@ -1,0 +1,256 @@
+* {
+  font-family: "Apercu";
+}
+
+/* @font-face {
+  font-family: "Apercu";
+  src: url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.eot");
+  src: url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.svg#Apercu")
+      format("svg");
+} */
+span {
+  font-family: "Apercu";
+}
+body {
+  font-size: 18px;
+}
+.containers {
+  min-height: 100vh;
+  display: flex;
+}
+.navside ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Apercu";
+  font-size: 12pt;
+}
+
+/* nav */
+.navside {
+  width: 15%;
+  min-height: 100vh;
+  background-color: #3b3186;
+}
+
+.logoheader {
+  font-family: "Apercu";
+  font-size: 12pt;
+  width: 100%;
+  /* height: 3em; */
+  /* background-color: red; */
+  padding-left: 2.5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.header {
+  background-color: #fff;
+  padding-top: 0.85em;
+  padding-bottom: 0.85em;
+  display: flex;
+  justify-content: space-between;
+  /* box-shadow: 0px 0px 10px 2px #000000; */
+  box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.1);
+}
+.search input,
+.search input:focus {
+  border: none;
+  border-color: transparent;
+  outline-width: 0;
+  font-family: "Apercu";
+}
+
+.nav-item {
+  color: white;
+}
+.fas {
+  margin-right: 0.5em;
+}
+
+/* Main Content */
+.main-content {
+  width: 85%;
+  background-color: #fff;
+}
+.navside ul li:nth-child(1) {
+  margin-top: 1em;
+}
+
+.navside ul li {
+  padding-left: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  /* margin-top: 1em; */
+}
+
+.active {
+  /* background-color: red; */
+  /* background-image: linear-gradient(to right, , yellow); */
+  background: linear-gradient(
+    to left,
+    /* rgb(240, 240, 240), */ rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.3)
+  );
+}
+
+/* nav ul li a:hover {
+  background-color: rgb(45, 4, 158);
+} */
+
+/* main */
+main {
+  /* grid-area: main; */
+  /* background-color: wheat; */
+  /* height: 500px; */
+  /* border-radius: 8px; */
+  min-height: 100vh;
+}
+table {
+  /* border-collapse: collapse; */
+  width: 100%;
+  color: black;
+}
+table tr th {
+  /* background: #35a9db; */
+  text-align: left;
+  color: grey;
+  padding: 1em 0px;
+}
+table tr {
+  /* background: red; */
+  border-bottom: 1px solid grey;
+}
+table,
+th,
+td {
+  padding: 8px 0px;
+  vertical-align: middle;
+  text-align: justify;
+}
+
+table tr:hover {
+  background-color: #f5f5f5;
+}
+/* aside */
+aside {
+  grid-area: aside;
+  /* background-color: #35a9db; */
+  padding-top: 28px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+aside * {
+  font-size: 25px;
+}
+aside .statistik {
+  margin-bottom: 50px;
+}
+aside .list_aside {
+  list-style-type: circle;
+}
+aside p .nilai {
+  font-size: 40px;
+}
+/* header */
+/* header {
+  grid-area: header;
+} */
+.search input {
+  width: 50%;
+  font-size: 12pt;
+}
+form {
+  width: 100%;
+  /* background-color: rgb(68, 0, 253); */
+}
+.search {
+  padding: 8px;
+  border-radius: 10px;
+  width: 81%;
+}
+.button {
+  padding: 10px;
+  width: 18%;
+  /* background-color: rgb(68, 0, 253); */
+  color: white;
+  font-weight: bolder;
+}
+/* .button:hover {
+  background-color: rgb(45, 4, 158);
+} */
+.button:active {
+  background-color: white;
+  color: black;
+}
+
+.ml-1 {
+  margin-left: 1em;
+}
+
+.profile {
+  /* background: red; */
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1em;
+  align-items: center;
+}
+
+.kotak {
+  width: 40px;
+  height: 40px;
+  /* background: yellow; */
+  margin-right: 1em;
+  margin-left: 1em;
+}
+a {
+  color: black;
+}
+
+.content {
+  display: flex;
+}
+main {
+  width: 75%;
+  /* background-color: red; */
+  padding: 1.5em;
+}
+aside {
+  width: 20%;
+  /* background: #FAFBFD; */
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+.row {
+  display: flex;
+}
+.mt-1 {
+  margin-top: 1em;
+}
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.pt-1 {
+  padding-top: 1em;
+}
+
+.pb-1 {
+  padding-bottom: 1em;
+}
+
+.list_aside li p {
+  font-size: 12pt;
+}
